@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="16dp"
+    android:layout_height="match_parent">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:text="sub $2 "
+            android:id="@+id/buttonID1"
+            android:textColor="@color/white"
+            android:background="@drawable/button_backgrnd"
+            android:fontFamily="serif"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="sub $5 "
+            android:id="@+id/buttonID2"
+            android:textColor="@color/white"
+            android:background="@drawable/button_backgrnd"
+            android:layout_margin="8dp"
+            android:fontFamily="serif"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:text="reset $ "
+            android:id="@+id/resetID"
+            android:background="@drawable/button_backgrnd"
+            android:layout_margin="8dp"
+            android:fontFamily="serif"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
